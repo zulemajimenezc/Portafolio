@@ -8,15 +8,15 @@ color: #aea3b0;
 color: #fff;
 
 
-font-family: 'Bebas Neue', cursive;
+font-family: 'Alfa Slab One', cursive;
 font-family: 'Gothic A1', sans-serif;
-font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Yantramanav', sans-serif;
-font-family: 'Zilla Slab', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Teko', sans-serif;
 }*/
 
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,*::before,*::after{
@@ -29,10 +29,14 @@ html{
 }
 body{
     background-color: #fceed4;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    
+    position: fixed;
+    left: 0;
+    top: 0;
+
     margin-left: auto;
     margin-right: auto;
     font-family: 'Gothic A1', sans-serif;
@@ -44,7 +48,9 @@ ul, ol {
     list-style:none;
 }
 .nav{
-    display: flex;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
      }
 
      
@@ -61,10 +67,12 @@ ul, ol {
 
 
 #f{
-    padding-left: 58.8rem;
+    padding-left: 57.1rem;
+    align-items: center;
 }
 #i{
     padding-left: 0;
+    align-items: center;
 }
 
 			
@@ -73,9 +81,11 @@ ul, ol {
 	color:#aea3b0;
     text-decoration:none;
     padding:1.5em 2.87em;
+    height: 70px;
     display:block;
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 			
 .nav li:hover #color{
@@ -108,19 +118,18 @@ position:relative;
 SECCIONES
 */
 
-section{
-    margin: 2rem, 5rem, 2rem, 5rem;
-}
+
 .contenedor{
     background-color: #fceed4;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
+    margin-top: 12em;
+    margin-bottom: 12em;
 }
 .div-a h1{
     font-family: 'Zilla Slab', serif;
-    color: rgb(53, 190, 149);
+    color: rgb(53, 174, 255);
     font-size: 10em;
 }
 .div-a p{
@@ -130,6 +139,11 @@ section{
     font-size: 1.5em;
     color: rgb(105, 83, 51);
 }
+
+section[id]{
+    scroll-margin-top: 100px;
+}
+
 section article div{
     margin-top: 130px;
     margin-bottom: 200px
@@ -149,60 +163,96 @@ section article div p{
 .principal{
     border-radius:2em;
 }
+.body-a{
+    padding: 2em;
+}
 
-/*.principal{
+.web{
+    background-color:rgb(115, 185, 218);
+    padding: 1em;
+    border-radius: 1rem;
+}
+.web h1{
+    font-family: 'Gothic A1', sans-serif;
+    color: #fffdfa;
+    font-weight: 600;
+    font-size: 3em;
+}
+.web p{
+    font-weight: 200;
+    font-size: 1.2em;
+    color:#fff;
+    padding-left: 1rem;
+        margin-bottom: 1em;
+}
+.movil{
+    background-color:rgb(128, 145, 192);
+    padding: 1em;
+    border-radius: 1rem;
+}
+.movil h1{
+    font-family: 'Gothic A1', sans-serif;
+    color: #fffdfa;
+    font-weight: 600;
+    font-size: 3em;
+}
+.movil p{
+    font-weight: 200;
+    font-size: 1.2em;
+    color:#fff;
+    padding-left: 1rem;
+        margin-bottom: 1em;
+}
+.software{
+    background-color: rgb(91, 172, 111);
+    padding: 1em;
+    border-radius: 1rem;
+}
+.software h1{
+    font-family: 'Gothic A1', sans-serif;
+    color: #fffdfa;
+    font-weight: 600;
+    font-size: 3em;
+}
+.software p{
+    font-weight: 200;
+    font-size: 1.2em;
+    color:#fff;
+    padding-left: 1rem;
+        margin-bottom: 1em;
+}
+
+/**/
+.card{
     width: 300px;
-    position: relative;
+    height: 450px;
     overflow: hidden;
     background-color: aqua;
     border-radius: 0.5em;
     
 }
 
-}
-.body-a{
+.body-card{
+    margin-top: auto;
     padding: 2em;
-}*/
+}
 
-.web{
-    background-color: rgb(206, 231, 255);
+.body-card h3{
+    font-size: 1.2rem;
+    font-weight: 900;
 }
-.web h1{
-    font-family: 'Zilla Slab', serif;
+.body-card p{
+    
+    font-weight: 300;
+}
+.c article{
+display: inline-block;
+margin-right: 0.3rem;
+}
+/**/
+
+footer p{
+    text-align: center;
     color: #c9bca3;
-    font-size: 3em;
-}
-.web p{
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 200;
-    font-size: 1em;
-    color: rgb(105, 83, 51);
-}
-.movil{
-    background-color: aquamarine;
-}
-.movil h1{
-    font-family: 'Zilla Slab', serif;
-    color: #c9bca3;
-    font-size: 3em;
-}
-.movil p{
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 200;
-    font-size: 1em;
-    color: rgb(105, 83, 51);
-}
-.software{
-    background-color: rgb(40, 170, 73);
-}
-.software h1{
-    font-family: 'Zilla Slab', serif;
-    color: #c9bca3;
-    font-size: 3em;
-}
-.software p{
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 200;
-    font-size: 1em;
-    color: rgb(105, 83, 51);
+    margin-bottom: auto;
 }
