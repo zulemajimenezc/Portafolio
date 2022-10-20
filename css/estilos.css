@@ -38,7 +38,7 @@ body{
     top: 0;
 
     margin-left: auto;
-    margin-right: ;
+    margin-right: auto;
     
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -68,7 +68,7 @@ ul, ol {
 
 			
 .nav li a {
-    background-color:#ffebca;
+    background-color:#fceed4;
 	color:#aea3b0;
     text-decoration:none;
     padding:1.5em 2.87em;
@@ -111,7 +111,7 @@ SECCIONES
 
 
 .contenedor{
-    background-color: #fceed4;
+    background-color:rgb(87, 125, 156);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -133,6 +133,9 @@ SECCIONES
 }
 
 section[id]{
+    scroll-margin-top: 100px;
+}
+section #cursos, section #habilidades, section #recom{
     scroll-margin-top: 100px;
 }
 
@@ -159,7 +162,7 @@ section article div p{
     padding: 2em;
 }
 .web{
-    background-color:rgb(115, 185, 218);
+    
     padding: 1em;
     border-radius: 1rem;
 }
@@ -188,7 +191,7 @@ section article div p{
 }
 
 .movil{
-    background-color:rgb(128, 145, 192);
+    
     padding: 1em;
     border-radius: 1rem;
 }
@@ -206,7 +209,7 @@ section article div p{
         margin-bottom: 1em;
 }
 .software{
-    background-color: rgb(91, 172, 111);
+    
     padding: 1em;
     border-radius: 1rem;
 }
@@ -223,20 +226,31 @@ section article div p{
     padding-left: 1rem;
         margin-bottom: 1em;
 }
+.inicio{
+    background-color: #fceed4;
+}
+.acerca{
+    background-color: #fceed4;
+    margin-bottom: 0em;
+    padding-bottom: 0%;
+}
 
 /**/
 .card{
     width: 300px;
     height: 430px;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #fffde3;
     border-radius: 0.5em;
     
 }
+.c1{
+    width: 400px;
+}
 
 .body-card{
-    margin-top: auto;
-    padding: 2em;
+    margin-top: 0.1rem;
+    padding: 1em;
 }
 
 .body-card h3{
@@ -244,9 +258,11 @@ section article div p{
     font-weight: 900;
 }
 .body-card p{
-    
+    color: #3a352d;
+    font-size: 1em;
     font-weight: 300;
 }
+
 .c article{
 display: inline-block;
 margin-right: 0.3rem;
@@ -261,6 +277,7 @@ footer p{
 
 
 /*PAG ABOUT*/
+
 section article div #abouth{
     font-size: 4rem;
     padding-top: 0;
@@ -275,37 +292,76 @@ section article div #aboutp{
 }
 section article #div-aa{
     margin-top: 30px;
-    margin-bottom: 200px
+    margin-bottom: 100px
 }
 /**/
 .correo{
     display: inline-block;
     text-decoration: none;
-    background-color: rgb(247, 145, 104);
     padding: 1em;
     margin: 0 0.5 0 0;
     font-size: 1.2rem;
     border-radius: 0.3em;
     color: #3a352d;
-    background-color: rgb(253, 255, 152);
-    font-weight: 600;
+    background-color: #acdbee;
+    font-weight: 500;
     }
+#flecha{
+    display: inline-block;
+    align-items: center;
+    padding-top: 0;
+    margin-left: 44.5%
+    
+}
+.div-aa{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
   /* TIMELINE
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .timeline ul li {
-    width: 2px;
-    padding-top: 50px;
-    background: #fff;
+    width: 4px;
+    padding-top: 40px;
+    background: #fff6e6;
   }
 
   .timeline ul li div {
     position: static;
     bottom: 0;
-    width: 600px;
+    width: 900px;
     padding: 15px;
-    background: #faf0f1;
+    background: #fff6e6;
+    
   }    
+  .contenedorA{
+    background-color: #fceed4;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    margin-bottom: 4.5em;
+}
+.contenedorA h1{
+    font-family: 'Gothic A1', sans-serif;
+    margin-top: 1em;
+    color:rgb(87, 125, 156);
+    font-size: 3.5em;
+}
 
+.contenedorA section ul li div{
+
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #31211b;
+}
+
+.parrafo{
+    font-weight: 300;
+    font-size: 1.2em;
+    color:rgb(39, 38, 38);
+    margin-bottom: 1em  
+}
 
 /**/
 
@@ -340,7 +396,7 @@ section article #div-aa{
         margin-bottom: 2em;}
         
 .tool{
-    background-color:rgb(99, 98, 145);
+    background-color:rgb(87, 125, 156);
     padding: 1em;
     border-radius: 1rem;
 }
@@ -378,9 +434,9 @@ section article #div-aa{
     text-align: center;
 }
 #lengs article{
-background-color: #f8ffb5;
+background-color: #fffde3;
 }
 #tools article{
-background-color: #d3ffb7;
+background-color: #fffde3;
 }
 /**/
